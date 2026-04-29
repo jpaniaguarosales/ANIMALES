@@ -11,13 +11,11 @@ package te;
 public interface Depredador {
 	
 	// METODO QUE SIMYULA EL COMPORTAMIENTO DE CAZA
-	public void cazar(); 
+	
+	public void cazar(int fuerza); 
 
-	/**
-	 * Añado el método para la mejora del código de la interfaz
-	 * y que la interfaz sea más óptima en su implementación. 
-	 */
-	public void emboscar(); 
+
+	
 	/**
 	 * METODO observar() 
 	 * EN ESTE CASO LO PONGO default EN VEZ DE public PORQUE AUNQUE HAY QUE
