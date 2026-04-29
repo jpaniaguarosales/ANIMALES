@@ -11,7 +11,10 @@ package te;
 public interface Depredador {
 	
 	// METODO QUE SIMYULA EL COMPORTAMIENTO DE CAZA
-	public void cazar(); 
+	
+	public void cazar(int fuerza); 
+
+
 	
 	/**
 	 * METODO observar() 
